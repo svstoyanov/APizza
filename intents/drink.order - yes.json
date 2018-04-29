@@ -1,0 +1,59 @@
+{
+  "id": "969b055e-2d4e-41ed-a2d0-1861233d5ffc",
+  "parentId": "5e6bcdee-26f5-4bea-8e72-48a73fc45d67",
+  "rootParentId": "5e6bcdee-26f5-4bea-8e72-48a73fc45d67",
+  "name": "drink.order - yes",
+  "auto": true,
+  "contexts": [
+    "pizzaorder-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "pizzaorder.pizzaorder-yes",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "c0cf87ed-2286-4e6c-a4f6-14ac252f7185",
+          "required": false,
+          "name": "pizzaChoices",
+          "value": "#pizzaorder-followup.pizzaChoices",
+          "isList": false
+        },
+        {
+          "id": "16d9c35d-5e45-4efe-bdfb-da23da40c7cc",
+          "required": true,
+          "dataType": "@drinkChoices",
+          "name": "drinkChoices",
+          "value": "$drinkChoices",
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "Sorry, can you try saying it again?"
+            },
+            {
+              "lang": "en",
+              "value": "This are our suggestions: Coca cola \u0026 Fanta Orange. Which one would you prefer?"
+            }
+          ],
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "So you ordered #pizzaorder-followup.pizzaChoices \u0026 $drinkChoices. Giuseppe starts working. Buon Apetit. Enjoy your meal!"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1524920894,
+  "fallbackIntent": false,
+  "events": []
+}

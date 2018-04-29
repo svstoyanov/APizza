@@ -1,0 +1,25 @@
+[
+  {
+    "value": "Margarita",
+    "synonyms": [
+      "Margarita",
+      "tomatoes"
+    ]
+  },
+  {
+    "value": "Pepperoni",
+    "synonyms": [
+      "Pepperoni",
+      "meat",
+      "salami"
+    ]
+  },
+  {
+    "value": "BBQ",
+    "synonyms": [
+      "BBQ",
+      "BBQ classic",
+      "American style"
+    ]
+  }
+]

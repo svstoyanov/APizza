@@ -1,0 +1,110 @@
+[
+  {
+    "id": "7ad9b8b8-27f4-42c6-88fb-6c69a882ab2e",
+    "data": [
+      {
+        "text": "i want to order ",
+        "userDefined": false
+      },
+      {
+        "text": "BBQ",
+        "alias": "pizzaChoices",
+        "meta": "@pizzaChoices",
+        "userDefined": false
+      },
+      {
+        "text": " pizza please",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1524919612
+  },
+  {
+    "id": "941612e1-a7de-43f8-b3da-09ddb3327646",
+    "data": [
+      {
+        "text": "margarita",
+        "alias": "pizzaChoices",
+        "meta": "@pizzaChoices",
+        "userDefined": false
+      },
+      {
+        "text": " please",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "5bed5672-4147-425a-a54c-92aeb8af3804",
+    "data": [
+      {
+        "text": "pizza please",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1524919612
+  },
+  {
+    "id": "156cc11c-eb66-4cd8-adc7-8ba76fb4330c",
+    "data": [
+      {
+        "text": "I want to order a ",
+        "userDefined": false
+      },
+      {
+        "text": "margarita",
+        "alias": "pizzaChoices",
+        "meta": "@pizzaChoices",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 1,
+    "updated": 1524919612
+  },
+  {
+    "id": "7525e4b7-6644-4b02-b2fd-685892b5fc03",
+    "data": [
+      {
+        "text": "I want to order a pizza",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1524919612
+  },
+  {
+    "id": "fe82ff8f-7323-4265-9870-a18713514317",
+    "data": [
+      {
+        "text": "pepperoni",
+        "alias": "pizzaChoices",
+        "meta": "@pizzaChoices",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1524920295
+  },
+  {
+    "id": "30b22af9-edeb-423f-ac0f-abea0461c394",
+    "data": [
+      {
+        "text": "I am hungry",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1524919612
+  }
+]

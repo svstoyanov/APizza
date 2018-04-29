@@ -1,0 +1,53 @@
+{
+  "id": "5e6bcdee-26f5-4bea-8e72-48a73fc45d67",
+  "name": "pizza.order",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [
+        {
+          "name": "pizzaorder-followup",
+          "parameters": {},
+          "lifespan": 2
+        }
+      ],
+      "parameters": [
+        {
+          "id": "ff1611e8-aba6-4c6d-b8cb-d9bf165c582c",
+          "required": true,
+          "dataType": "@pizzaChoices",
+          "name": "pizzaChoices",
+          "value": "$pizzaChoices",
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "Sorry, can you try saying it again?"
+            },
+            {
+              "lang": "en",
+              "value": "This are our suggestions: Margarita, Pepperoni \u0026 our pizza specialty The BBQ master. Which one would you prefer?"
+            }
+          ],
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "Good choice. Would you like to order a drink? We have Fanta \u0026 Coke."
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1524920295,
+  "fallbackIntent": false,
+  "events": []
+}

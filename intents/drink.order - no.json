@@ -1,0 +1,41 @@
+{
+  "id": "5f2bb747-6006-4696-a2b8-c81adf4f53f7",
+  "parentId": "5e6bcdee-26f5-4bea-8e72-48a73fc45d67",
+  "rootParentId": "5e6bcdee-26f5-4bea-8e72-48a73fc45d67",
+  "name": "drink.order - no",
+  "auto": true,
+  "contexts": [
+    "pizzaorder-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "pizzaorder.pizzaorder-no",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "0bb83bb0-d4d8-4cd6-a7dc-cb257467684e",
+          "required": false,
+          "name": "pizzaChoices",
+          "value": "#pizzaorder-followup.pizzaChoices",
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "So you ordered #pizzaorder-followup.pizzaChoices Giuseppe starts working. Buon Apetit. Enjoy your pizza!"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1524920401,
+  "fallbackIntent": false,
+  "events": []
+}

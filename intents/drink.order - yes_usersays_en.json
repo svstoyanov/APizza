@@ -1,0 +1,66 @@
+[
+  {
+    "id": "af73da09-0d01-4381-ab21-7673e56fa438",
+    "data": [
+      {
+        "text": "i would like to have ",
+        "userDefined": false
+      },
+      {
+        "text": "coke",
+        "alias": "drinkChoices",
+        "meta": "@drinkChoices",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1524920894
+  },
+  {
+    "id": "5cc4d189-78e9-4539-8c4b-8740c8d452cd",
+    "data": [
+      {
+        "text": "coke",
+        "alias": "drinkChoices",
+        "meta": "@drinkChoices",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1524920894
+  },
+  {
+    "id": "277d8aa7-b0af-4dac-8db1-c705b5574d46",
+    "data": [
+      {
+        "text": "i want ",
+        "userDefined": false
+      },
+      {
+        "text": "coke",
+        "alias": "drinkChoices",
+        "meta": "@drinkChoices",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1524920894
+  },
+  {
+    "id": "3596b856-3572-4359-851d-09212a7783a2",
+    "data": [
+      {
+        "text": "Fanta",
+        "alias": "drinkChoices",
+        "meta": "@drinkChoices",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1524920894
+  }
+]
